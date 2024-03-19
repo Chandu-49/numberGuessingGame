@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body >
+        <div class="mydiv">
+        <center><h1 style="color: yellow;">Number Guessing Game</h1></center>
+        <center> <h3 style="color: white;">Select a number between 1 to 100 and Guess it !!!</h3></center>
+        <center><label style="color: white; margin-right: 5px;">Guess a number:  </label>
+        <input id="n1" type="text" placeholder="enter  Guess"></center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center><h2 style="color: white;">No of tries</h2></center>
+        <center><h2 id="count">0</h1></center>
+        <div class="buttons">
+            <button id="check" onclick="check()">check</button>
+            <button id="reset" onclick="window.location.reload()"> reset</button>
+        </div>
+        <center> <h1 style="color:aliceblue" id="res"> Start Guessing </h1></center>
+
+    </div>
+    <script src="index.js"></script>
+    </body>
+</html>

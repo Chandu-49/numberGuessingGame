@@ -1,0 +1,61 @@
+.mydiv{
+    background-color: rgba(18, 18, 18, 0.5);
+    width:1000px;
+    height:500px;
+    margin-top: 150px;
+    margin-left: 270px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px ;
+}
+.mydiv .buttons{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+
+}
+.buttons button{
+    padding:10px;
+    margin-left: 20px;
+    border:none;
+    border-radius: 5px;
+    width:100px;
+    height:40px;
+
+    
+
+}
+#check{
+    color:white;
+    background-color: rgb(68, 255, 0);
+}
+#reset{
+color:white;
+background-color: rgb(253, 3, 3);
+}
+
+#reset:active{
+    animation-name: grow;
+    animation-duration: 1s;
+
+}
+#check:active{
+    animation-name: grow;
+    animation-duration: 1s;
+
+}
+#n1{
+    padding:8px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+body{
+    background: url("https://cdn1.vectorstock.com/i/1000x1000/29/40/question-mark-background-vector-18432940.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes grow {
+    100%{
+        transform: scale(0.9,0.9);
+    }
+    
+}
